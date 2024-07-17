@@ -1,1 +1,12 @@
-select * from emp
+SELECT TOP (1000) [unique_pupil_number]
+      ,[school]
+      ,[forename]
+      ,[surname]
+      ,[gender]
+      ,[date_of_birth]
+      ,[ethnicity]
+      ,[special_educational_needs]
+      ,[free_school_meals_eligible]
+      ,[language]
+      ,[disadvantaged]
+  FROM [YourDatabaseName].[dbo].[pupil]
